@@ -1,0 +1,32 @@
+generated: '2026-10-22'
+method: searched
+source:
+- https://visageimaging.com/press-release/visage-advances-enterprise-imaging-at-siim-2016/
+note: >-
+  Pro Medicus publishes no public API documentation or developer portal (promed.com.au and
+  visageimaging.com checked 2026-10-22; visageimaging.com/contact/support/ offers product
+  documentation to customers only). The claims below are product-level interoperability claims
+  from a 2016 press release by its Visage Imaging subsidiary (Visage 7.1.8); they are prose claims,
+  not declared in any published contract, and are dated. Visage Imaging is profiled separately
+  in this catalog (all/visage-imaging/).
+standards:
+- id: ihe-dbt
+  conforms: claimed
+  evidence: '"The release also offers interoperability using the following Integrating the Healthcare Enterprise (IHE) profiles successfully validated at IHE Europe Connectathon 2016: Digital Breast Tomosynthesis (DBT), Image Object Change Management (IOCM), and Cross Enterprise Clinical Documents Share (XDS.b)."'
+  source: https://visageimaging.com/press-release/visage-advances-enterprise-imaging-at-siim-2016/
+  as_of: '2016'
+- id: ihe-iocm
+  conforms: claimed
+  evidence: '"...IHE profiles successfully validated at IHE Europe Connectathon 2016: ... Image Object Change Management (IOCM) ..."'
+  source: https://visageimaging.com/press-release/visage-advances-enterprise-imaging-at-siim-2016/
+  as_of: '2016'
+- id: ihe-xds.b
+  conforms: claimed
+  evidence: '"...IHE profiles successfully validated at IHE Europe Connectathon 2016: ... Cross Enterprise Clinical Documents Share (XDS.b)."'
+  source: https://visageimaging.com/press-release/visage-advances-enterprise-imaging-at-siim-2016/
+  as_of: '2016'
+- id: dicom
+  conforms: claimed
+  evidence: '"Enhanced DICOM — support for 3D Enhanced Ultrasound images." (Visage 7.1.8 release notes in the same press release; no DICOM Conformance Statement is published on the provider site)'
+  source: https://visageimaging.com/press-release/visage-advances-enterprise-imaging-at-siim-2016/
+  as_of: '2016'

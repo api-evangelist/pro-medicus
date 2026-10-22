@@ -1,0 +1,94 @@
+generated: '2026-10-22'
+method: searched
+source: https://www.promed.com.au/privacy-statement/
+jurisdiction_framework: Australian Privacy Act 1988 (Cth) and Australian Privacy Principles (APPs)
+pages_read:
+- url: https://www.promed.com.au/privacy-statement/
+  http_status: 200
+  fetched: '2026-10-22'
+  title: Privacy Policy - Pro Medicus
+- url: https://www.promed.com.au/terms-of-use/
+  http_status: 200
+  fetched: '2026-10-22'
+  note: Website terms of use; no regulatory-posture signals found on it.
+signals:
+  data_subject_request:
+    url: https://www.promed.com.au/privacy-statement/
+    section: 13. Finding out what Personal Information we hold about you
+    channel: hall@promedicus.com.au (clause 14.1 Email)
+    rights_named: [access, correction/update, destruction or de-identification]
+    evidence:
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        If you request access to your Personal Information, we will grant your request unless providing you with
+        access would unreasonably impact upon the privacy of others or is not otherwise permitted under the
+        Australian Privacy Principles or at law.
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        If we refuse your request to access your Personal Information, we will provide you with written reasons
+        for the refusal.
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        You can update your Personal Information at any time by contacting us in any of the ways specified in
+        clause 14.
+    note: >-
+      APP-based access and correction rights, plus a request route for destruction/de-identification (see
+      data_retention). No response time (SLA) is stated and no portability right is named.
+  data_residency:
+    url: https://www.promed.com.au/privacy-statement/
+    section: 8. Disclosure of your Personal Information overseas
+    countries_named: [United States of America, Germany, Canada]
+    evidence:
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        The countries in which these Overseas Entities are located include the United States of America,
+        Germany and Canada.
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        It is possible that the Overseas Entities may be subject to foreign laws that do not provide the same
+        level of protection of information as in Australia.
+    note: >-
+      Not a residency commitment: a cross-border disclosure statement (APP 8 style) saying personal information
+      may leave Australia to group entities and third-party providers in the US, Germany and Canada. Covers
+      the company's own collection of personal information, not customer imaging data in Visage products.
+  incident_notification:
+    url: https://www.promed.com.au/privacy-statement/
+    section: 10. Storage and security of Personal Information held by us
+    regime: Notifiable Data Breaches Scheme (Part IIIC, Privacy Act)
+    evidence:
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Where serious harm to affected individuals is likely, we will notify those individuals and the
+        Commissioner in accordance with our legal obligations.
+    note: >-
+      Breach notification is tied to the statutory NDB scheme (individuals plus the Australian Information
+      Commissioner). No contractual notification window is stated.
+  data_retention:
+    url: https://www.promed.com.au/privacy-statement/
+    section: 12. How long will we keep your Personal Information?
+    evidence:
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        We will keep your Personal Information only for as long as required for our business purposes and
+        otherwise as required by Australian law.
+    - source: https://www.promed.com.au/privacy-statement/
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Where we no longer need to keep your Personal Information in accordance with this clause 12, we will
+        take reasonable steps to destroy or de-identify your Personal Information.
+    note: Purpose-bound retention with destroy/de-identify at end of need; no fixed retention periods are published.

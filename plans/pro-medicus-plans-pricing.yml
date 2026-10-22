@@ -1,0 +1,14 @@
+name: Pro Medicus pricing
+generated: '2026-10-22'
+method: none
+audience: unclear
+pricing_basis: negotiated
+published: false
+delivery:
+  model: unclear
+plan_count: 0
+plans: []
+checked:
+- https://www.promed.com.au/
+- https://visageimaging.com/
+note: No pricing page or published plans on promed.com.au or visageimaging.com; enterprise imaging software (Visage RIS/PACS, Visage 7) sold under customer contracts, prices not published.

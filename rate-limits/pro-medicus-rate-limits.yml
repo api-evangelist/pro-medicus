@@ -1,0 +1,9 @@
+name: Pro Medicus rate limits
+generated: '2026-10-22'
+method: none
+limit_count: 0
+limits: []
+checked:
+- https://www.promed.com.au/
+- https://visageimaging.com/contact/support/
+note: No public API documentation exists, so no rate limits are published.

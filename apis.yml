@@ -1,23 +1,108 @@
 aid: pro-medicus
+
 name: Pro Medicus
-description: 'Pro Medicus is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Pro Medicus Limited (promed.com.au) is an Australian imaging IT provider delivering services and solutions to hospitals, imaging centres and healthcare groups worldwide. It builds radiology information systems (RIS), picture archiving and communication systems (PACS) and advanced visualization software under the Visage brand: Visage RIS, Visage RIS/PACS, Visage 7, Visage Ease Pro and Visage Ease. No public developer API, API documentation or developer portal was found on its website. Originally surfaced via the API Evangelist harvest backlog (australia-apidays-2026).'
+
 url: https://raw.githubusercontent.com/api-evangelist/pro-medicus/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Healthcare
+- Medical Imaging
+- Radiology
+- PACS
+- RIS
+- Health IT
+- Australia
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.promed.com.au/wp-content/uploads/2015/02/Retina.png
+
 common:
+- type: Conformance
+  url: conformance/pro-medicus-conformance.yml
+- type: WellKnown
+  url: well-known/pro-medicus-well-known.yml
+- type: Hosts
+  url: hosts/pro-medicus-hosts.yml
+- type: DomainSecurity
+  url: security/pro-medicus-domain-security.yml
 - type: Website
-  url: https://promed.com.au/
+  url: https://www.promed.com.au/
+- type: About
+  url: https://www.promed.com.au/about/
+- type: Support
+  url: https://www.promed.com.au/support/
+- type: Contact
+  url: https://www.promed.com.au/contact/
+- type: Newsroom
+  url: https://www.promed.com.au/news/
+- type: Events
+  url: https://www.promed.com.au/events/
+- type: Leadership
+  url: https://www.promed.com.au/about/management/
+- type: Compliance
+  url: https://www.promed.com.au/about/compliance/
+- type: Investors
+  url: https://www.promed.com.au/investors/
+- type: TermsOfService
+  url: https://www.promed.com.au/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.promed.com.au/privacy-statement/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website and link pointers verified by GET on 2026-10-22; promed.com.au redirects to www.promed.com.au (same company, title "Home - Pro Medicus"). No developer portal, API docs, blog on own domain, pricing, GitHub org or Postman found.
+  evidence:
+  - url: https://promed.com.au/
+    status: 200
+  - url: https://www.promed.com.au/
+    status: 200
+  - url: https://www.promed.com.au/about/
+    status: 200
+  - url: https://www.promed.com.au/support/
+    status: 200
+  - url: https://www.promed.com.au/contact/
+    status: 200
+  - url: https://www.promed.com.au/news/
+    status: 200
+  - url: https://www.promed.com.au/events/
+    status: 200
+  - url: https://www.promed.com.au/about/management/
+    status: 200
+  - url: https://www.promed.com.au/about/compliance/
+    status: 200
+  - url: https://www.promed.com.au/investors/
+    status: 200
+  - url: https://www.promed.com.au/terms-of-use/
+    status: 200
+  - url: https://www.promed.com.au/privacy-statement/
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 15
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

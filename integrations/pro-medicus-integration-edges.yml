@@ -1,0 +1,16 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/pro-medicus/integrations
+- https://n8n.io/integrations/pro-medicus/
+- https://composio.dev/toolkits/pro-medicus
+- https://monid.ai/tools/pro-medicus
+checked:
+- https://composio.dev/toolkits/pro-medicus
+- https://monid.ai/tools/pro-medicus
+- https://n8n.io/integrations/pro-medicus/
+- https://zapier.com/apps/pro-medicus/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

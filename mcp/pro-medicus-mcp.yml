@@ -1,0 +1,29 @@
+name: Pro Medicus MCP Server
+type: MCPServer
+generated: '2026-10-22'
+method: none
+source:
+- https://www.promed.com.au/.well-known/mcp.json
+description: >-
+  Checked for an official Pro Medicus (Visage Imaging) MCP server and found none.
+  https://www.promed.com.au/.well-known/mcp.json, /.well-known/mcp and /AGENTS.md returned HTTP 404
+  on 2026-10-22. Pre-flight contract discovery on promed.com.au and www.promed.com.au found no MCP,
+  OpenAPI, AsyncAPI or GraphQL surface. A web search for a Pro Medicus / Visage MCP server, llms.txt
+  or developer API returned only unrelated third-party medical MCP servers. There is no published
+  OpenAPI to derive a candidate tool list from, so this file lists no tools.
+deployment:
+  mode: none
+  auth: unknown
+  verified: probed
+tools: []
+probes:
+- url: https://www.promed.com.au/.well-known/mcp.json
+  status: 404
+- url: https://www.promed.com.au/.well-known/mcp
+  status: 404
+- url: https://www.promed.com.au/AGENTS.md
+  status: 404
+- url: https://www.promed.com.au/llms.txt
+  status: 404
+- url: https://www.visageimaging.com/llms.txt
+  status: 404
